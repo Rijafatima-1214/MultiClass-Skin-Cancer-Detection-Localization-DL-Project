@@ -1,0 +1,28 @@
+Multi Class Skin Cancer Detection and Localization Using Deep Learning 
+Project Domain / Category 
+Image processing 
+Abstract / Introduction 
+Skin cancer is a growing global health concern, with multiple types such as melanoma, basal cell 
+carcinoma (BCC), and squamous cell carcinoma (SCC) requiring early detection for effective 
+treatment. Traditional diagnostic methods are time-consuming, subjective, and dependent on 
+dermatologists' expertise. This project aims to develop an automated deep learning-based system 
+that classifies and detects skin lesions in medical images. The system will not only classify skin cancer 
+types but also localize lesions using object detection techniques. Convolutional Neural Networks 
+(CNNs) and object detection frameworks like YOLO (You Only Look Once) and Faster R-CNN will be 
+used to detect, classify, and highlight affected skin areas in real-time. 
+Functional Requirements: 
+1. Preprocess skin images (noise removal, contrast enhancement, normalization). 
+2. Implement multi-class classification for skin lesion types (Melanoma, BCC, SCC, Benign 
+Lesions). 
+3. Integrate object detection to localize and highlight affected skin regions. 
+4. Utilize deep learning models (ResNet, MobileNet, EfficientNet) for classification. 
+5. Apply object detection techniques (YOLO, Faster R-CNN) for lesion localization. 
+6. Develop a GUI interface to allow users to upload images for classification. 
+7. Evaluate model performance using metrics like accuracy, precision, recall, F1-score, and IoU 
+(Intersection over Union). 
+8. Provide visualization tools like Grad-CAM to interpret predictions. 
+Tools:  
+Programming Languages: Python 
+Frameworks & Libraries: TensorFlow, Keras, OpenCV, Scikit-learn 
+Development Environment: Jupyter Notebook, Google Colab 
+Dataset: ISIC (International Skin Imaging Collaboration), HAM10000
